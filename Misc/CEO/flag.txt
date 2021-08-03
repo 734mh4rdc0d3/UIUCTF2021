@@ -1,0 +1,5 @@
+use aircrack-ng to crack the auth in the pcap.
+
+aircrack-ng -z -w /home/royal/Desktop/rockyou.txt megacorp-01.cap
+
+flag: uiuctf{nanotechnology}

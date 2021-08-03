@@ -1,0 +1,69 @@
+This is auction bot! Auction bot is dedicated to provide the best auctioning experience possible.
+
+    To become a member of the Auction House please run the command /initiate.
+    There are a variety of commands you can run (type / to see a list).
+    You can buy and sell items from the market places. Each item has a specific type.
+
+    - single: Price for item is static no matter how many you sell.
+    - collectable: If you sell these at the same time an arbitrary multiplier increases overall value
+    - part: Get an item that can be assembled into a larger single set!
+    - set: An item worth more than all the parts combined. Type /assemble <Set Name> to convert parts to set
+
+    There is a public auction happening with payouts and new items happening every 10 minutes.
+    You check which items are being auctioned with /public_auction_items.
+
+    /bid to bid in the public auction btw.
+
+    These items are all being auctioned at the same time so feel free to bid for any item being auctioned you fancy.
+
+    You can also host your own private auctions! Simply run /create to make a private room and share that code with
+    anyone you want! Your private room is permanent so share your room code wisely! However, members of your room
+    can leave with /leave_room. Steps are:
+
+    1) /start_private_auction
+    2) /auction <item> <starting bid>
+    3) /stop_private_bidding (this determines who one the bid and distributes the payout)
+    4) /end_private_auction
+
+    If you royally screw up you can do /i-screwed-up
+
+    Good Luck!
+
+The discord bot for buy_buy_buy shows us inventory where we can buy collectibles and sell for a higher price and also we can buy parts and assemble them and sell them for a higher price.
+
+**Samurai Set**: Type: set, Price: 130000 Parts: Part: helmet| Price: 10000, Part: body armor| Price: 30000, Part: boots| Price: 5000, Part: katana| Price: 40000
+- **Terracotta Warrior**: Type: collectable, Price: 10000
+- **Ancient Gold Medallion**: Type: single, Price: 20000
+- **Ancient Silver Medallion**: Type: single, Price: 10000
+- **Ancient Bronze Medallion**: Type: single, Price: 20000
+- **Old Grandfather Clock**: Type: set, Price: 40000 Parts: Part: gears| Price: 2000, Part: body| Price: 15000
+- **Silver Cistern**: Type: single, Price: 3800000
+- **The Giuseppe Violin**: Type: single, Price: 3900000
+- **Der Blaue Wittelsbacher**: Type: single, Price: 23400000
+- **Totally Normal Knife**: Type: single, Price: 1000000
+- **1964 Ferrari 250 LM**: Type: single, Price: 19000000
+- **1939 Alfa Romeo 8C 2900B Lungo Spider**: Type: single, Price: 19800000
+- **1955 Jaguar D-Type**: Type: single, Price: 21780000
+- **Rare Yugioh Card**: Type: collectable, Price: 15000
+- **Venus of Willendorf**: Type: collectable, Price: 30000
+- **Shiny Pokemon Card**: Type: collectable, Price: 10000
+- **Knight Set**: Type: set, Price: 90000 Parts: Part: helmet| Price: 5000, Part: body armor| Price: 15000, Part: boots| Price: 5000, Part: broadsword| Price: 20000
+- **Flag Common**: Type: single, Price: 10000
+- **Flag Rare**: Type: single, Price: 1000000
+- **Flag Ultra Rare**: Type: single, Price: 10000000
+- **Staff of Ra**: Type: set, Price: 200000 Parts: Part: staff| Price: 10000, Part: head piece| Price: 100000
+- **Clout**: Type: collectable, Price: 40000
+- **Zeus's Thunderbolt**: Type: single, Price: 100000
+- **Golden Fleece**: Type: single, Price: 300000
+- **Grand Piano**: Type: single, Price: 200000
+- **Megazord**: Type: set, Price: 1000000 Parts: Part: Tyrannosaurus| Price: 50000, Part: Mastodon| Price: 50000, Part: Triceratops| Price: 50000, Part: Sabertooth| Price: 50000, Part: Tiger| Price: 50000, Part: Pterodactyl| Price: 50000
+
+best value for money are Old Grandfather Clock and Megazord and Staff of Ra.
+best value for money are Venus of Willendorf, Shiny Pokemon Card, Rare Yugioh Card.
+
+buy and sell.
+buy all the three flags and then redeem them.
+
+flag: uiuctf{at_the_bang_of_the_gavel_only_one_can_win}
+
+i didnt see what auction meant. just bought stuff and sold stuff to get the flag.

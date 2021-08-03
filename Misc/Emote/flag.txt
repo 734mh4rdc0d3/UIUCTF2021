@@ -1,0 +1,15 @@
+request ian5v for emote image and get an emoji :emote: as a reply.
+save the emoji image and get 16X16 black and white image.
+
+convert the image to matrix and each row now has two alphabetic characters in row major order.
+
+example first row:
+[False  True  True  True False  True False  True] [False  True  True False  True False False  True]
+convert to binary for row one.
+01110101, 01101001,
+convert to ascii.
+
+find the script in flag.py.
+
+flag: uiuctf{staring_at_pixels_is_fun}
+ didnt took a lot of staring though.

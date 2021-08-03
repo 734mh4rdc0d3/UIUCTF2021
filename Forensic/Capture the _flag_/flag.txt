@@ -1,0 +1,14 @@
+the challenge name suggests to capture the :flag:.
+an emoji is written in discord with colon surrounding it, which we know from the emote challenege.
+
+i went to discord channel and got the flag emoji with :flag: and saved it.
+exiftool on the image shows that we have to get LSB(least significant bit) of the pixels.
+(text description: LSBs(Pixels[1337:]))
+
+There are two catches here though. The pixels are RGBA format where A is the opacity and we have to reject it.
+Also the pixels are to be taken from 1337 position in Coloumn major order rather than the classical Row major order.
+
+Consider the RGB values in a flat array from the position 1337 in Row major order and convert the parts of 8 least significant bits to characters with ASCII coding and get the flag. the script flag.py gives the flag.
+Apologies for messy code. 
+
+flag: uiuctf{d!sc0rd_fl4g_h0w_b0ut_d4t}
